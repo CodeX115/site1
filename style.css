@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(
+        to bottom, 
+        #9174e0 0%,
+        #896ed3 50%,
+        #fafad2 50%,
+        #fafad2 100%
+    );
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a {
+    color: #ffee00;
+    font-style: italic;
+    margin: 70px;
+    font-size: 20px;
+}
+
+.header2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+    color: rgb(14, 143, 14);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+li:first-letter {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    color: rgb(5, 1, 238);
+  
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+ 
+.text ol {
+    margin-right: 400px;
+}
+.video {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_wrapper {
+    display: block;
+}
+
+.video_wrapper video {
+    height: 400px;
+}
+
+.form {
+    padding: 100px 0;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_title {
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 40px;
+}
+
+form input {
+    max-width: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p,
+label {
+    font:
+        1rem 'Fira Sans',
+        sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}
