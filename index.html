@@ -49,12 +49,27 @@
     <section class="form">
         <div class="wrapper">
             <div class="form_wrapper">
-                <h1 class="form_title">
-                    Форма обратной связи
-                </h1>
                 <form action="">
-                    <input type="email">
-                    <input type="password">
+                    <h1 class="form_title">
+                    Форма обратной связи
+                    </h1>
+                    <div class="input_wrapper">
+                        <input type="email" placeholder="Введите ваше имя">
+                        <input type="password" placeholder="Введите ваш пароль">
+                    </div>
+                    
+                    <div class="selection_wrapper">
+                        <label>Выберите свое настроение:</label>
+                        <select>
+                            <option>Замечательное</option>
+                            <option>Великолепное</option>
+                            <option>Хорошее</option>
+                            <option>Нейтральное</option>
+                            <option>Грустное</option>
+                            <option>Плохое</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Напишите нам свои пожелания:"></textarea>
                 </form>
             </div>
         </div>
